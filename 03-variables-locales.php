@@ -32,15 +32,35 @@ Les noms de variables suivent les mêmes règles de nommage que les autres entit
 </pre>
 <hr>
 <?php
-    $lulu = 5;
+   $lulu = 5;
     echo '$lulu = ';
-    echo "$lulu <br>";
-
-    $lala = "yes";
-    echo '$lala = ';
-    echo "$lala <br>";
-
-
+  echo "$lulu <br>";
+   
+   $lala = "yes";
+   echo '$lala = ';
+   echo "$lala <br>";
+   
+   $_____coucou = 7;
+   echo '_____coucou = ';
+   echo "$_____coucou <br>";
+   
+   $bool = true;
+   echo'$bool =';
+   echo"$bool <br>";
+   
+   $ILoveYou = "me too";
+   echo 'ILoveYou =';
+   echo"$ILoveYou <br>";
+   
+   $lkhjfgt5468sd58757 = 677;
+   echo '$lkhjfgt5468sd58757 =';
+   echo"$lkhjfgt5468sd58757 <br>";
+   
+    $mabapta = $lulu;
+    echo '$mabapta =';
+    echo"$mabapta <br>";
+   
+   
 ?>
 </body>
 </html>
