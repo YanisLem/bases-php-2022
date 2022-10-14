@@ -62,10 +62,12 @@ $nb3 = 100;
     <h4>Exe 4 </h4>
     <p>Affichez les chiffres de 0 à la valeur de la variable $hasard (entiers positif : 0, 1, 2, 3, ...) séparés par des ,</p>
     <?php
+
     ?>
     <h4>Exe 5 </h4>
     <p>faites une boucle allant de $nb3 à $nb1 en diminuant la valeur de 3 (100, 97, 94 etc...) séparés par des virgules</p>
     <?php
+    
     ?>
 </body>
 </html>

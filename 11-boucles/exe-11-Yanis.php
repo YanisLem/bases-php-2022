@@ -48,14 +48,16 @@ $nb3 = 100;
     ?>
     <h3>Exe 2</h3>
     <p>Affichez tous les noms de la variable $stagiaires séparés par un " | " avec leur clef: exemple <code>0 -> Redouan | 1 -> Coralie ...</code></p>
+    
     <?php
     foreach($stagiaires as $key => $value){
     echo "$key -> $value | ";
     }
     ?>
     <h3>Exe 3</h3>
-    <p>Voir la doc sur les tableaux : Affichez tous les noms de la variable $stagiaires classés par ordre alphabétique séparés par leurs index "</p>
+    <p>Voir la doc sur les tableaux : Affichez tous les noms de la variable $stagiaires classés par ordre alphabétique séparés par un "|"</p>
     <?php
+        // classe par valeurs ascendantes en gardant la clef
      sort($stagiaires);
      foreach($stagiaires as $value){
         echo"$value | ";
@@ -66,6 +68,7 @@ $nb3 = 100;
     <?php
      for($i=0; $i<=$hasard; $i++){
         echo"$i |";
+        
     }
     ?>
     <h4>Exe 5 </h4>
